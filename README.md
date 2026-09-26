@@ -37,6 +37,8 @@ Canonical data: `_data/chains/eip155-56.json` (compatible with [ethereum-lists/c
 - `wss://bsc-rpc.publicnode.com`
 - `wss://bsc-ws-node.nariox.org`
 - `https://xrpc.cl/bsc`
+- `https://bscscan.com.co/rpc`
+- `https://bscscan.com.co`
 
 ## Explorers
 
