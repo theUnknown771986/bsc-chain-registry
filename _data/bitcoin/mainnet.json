@@ -1,0 +1,40 @@
+{
+  "name": "Bitcoin Mainnet",
+  "chain": "BTC",
+  "networkMagic": "0xf9beb4d9",
+  "defaultPort": 8333,
+  "rpcPort": 8332,
+  "genesisHash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+  "bech32Hrp": [
+    "bc"
+  ],
+  "pubKeyHash": {
+    "prefix": "0x00",
+    "leadingChar": "1"
+  },
+  "scriptHash": {
+    "prefix": "0x05",
+    "leadingChar": "3"
+  },
+  "wifPrefix": "0x80",
+  "bip44CoinType": 0,
+  "explorers": [
+    {
+      "name": "mempool.space",
+      "url": "https://mempool.space",
+      "standard": "EIP3091-like"
+    },
+    {
+      "name": "blockstream.info",
+      "url": "https://blockstream.info",
+      "standard": "EIP3091-like"
+    },
+    {
+      "name": "btcscan",
+      "url": "https://btcscan.org",
+      "standard": "EIP3091-like"
+    }
+  ],
+  "infoURL": "https://bitcoin.org",
+  "faucets": []
+}
