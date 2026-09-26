@@ -1,0 +1,38 @@
+{
+  "name": "Bitcoin Testnet4 (BIP94)",
+  "chain": "BTC",
+  "networkMagic": "0x1c163287",
+  "defaultPort": 48333,
+  "rpcPort": 48332,
+  "genesisHash": "00000000da84f2bafbbc53dee25a72ae507ff4914b867c565be350b0da8bf043",
+  "bech32Hrp": [
+    "tb"
+  ],
+  "pubKeyHash": {
+    "prefix": "0x6f",
+    "leadingChar": "m or n"
+  },
+  "scriptHash": {
+    "prefix": "0xc4",
+    "leadingChar": "2"
+  },
+  "wifPrefix": "0xef",
+  "bip44CoinType": 1,
+  "explorers": [
+    {
+      "name": "mempool.space testnet4",
+      "url": "https://mempool.space/testnet4",
+      "standard": "EIP3091-like"
+    },
+    {
+      "name": "mempool.space",
+      "url": "https://mempool.space/testnet4",
+      "standard": "EIP3091-like"
+    }
+  ],
+  "infoURL": "https://github.com/bitcoin/bips/blob/master/bip-0094.mediawiki",
+  "faucets": [
+    "https://signetfaucet.com",
+    "https://mempool.space/testnet4/faucet"
+  ]
+}
