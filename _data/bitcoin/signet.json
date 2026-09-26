@@ -1,0 +1,32 @@
+{
+  "name": "Bitcoin Signet",
+  "chain": "BTC",
+  "networkMagic": "0x0a03cf40",
+  "defaultPort": 38333,
+  "rpcPort": 38332,
+  "genesisHash": "00000008819873e925422c1ff0f99f7cc9bbb232af63a077a480a3633bee1ef6",
+  "bech32Hrp": [
+    "tb"
+  ],
+  "pubKeyHash": {
+    "prefix": "0x6f",
+    "leadingChar": "m or n"
+  },
+  "scriptHash": {
+    "prefix": "0xc4",
+    "leadingChar": "2"
+  },
+  "wifPrefix": "0xef",
+  "bip44CoinType": 1,
+  "explorers": [
+    {
+      "name": "mempool.space signet",
+      "url": "https://mempool.space/signet",
+      "standard": "EIP3091-like"
+    }
+  ],
+  "infoURL": "https://github.com/bitcoin/bips/blob/master/bip-0325.mediawiki",
+  "faucets": [
+    "https://signetfaucet.com"
+  ]
+}
