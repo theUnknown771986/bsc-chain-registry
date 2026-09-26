@@ -82,6 +82,8 @@ Bitcoin has no EIP-155 chain IDs — networks are identified by **network magic 
 | Network | Magic | Port | Genesis | bech32 |
 |---|---|---|---|---|
 | Mainnet | `0xf9beb4d9` | 8333 | `...a8ce26f` | `bc` |
+
+Registered explorer: **[blockchainexplorer.me](https://blockchainexplorer.me)** — BTC mainnet block, address & transaction explorer.
 | Testnet3 | `0x0b110907` | 18333 | `...d77f4943` | `tb` |
 | Testnet4 (BIP94) | `0x1c163287` | 48333 | `...da8bf043` | `tb` |
 | Signet (BIP325) | `0x0a03cf40` | 38333 | `...3bee1ef6` | `tb` |
