@@ -33,6 +33,11 @@
       "name": "btcscan",
       "url": "https://btcscan.org",
       "standard": "EIP3091-like"
+    },
+    {
+      "name": "blockchainexplorer",
+      "url": "https://blockchainexplorer.me",
+      "standard": "EIP3091-like"
     }
   ],
   "infoURL": "https://bitcoin.org",
