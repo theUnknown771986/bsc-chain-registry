@@ -11,7 +11,14 @@
       "bech32Hrp": [
         "bc"
       ],
-      "bip44CoinType": 0
+      "bip44CoinType": 0,
+      "explorers": [
+        {
+          "name": "blockchainexplorer",
+          "url": "https://blockchainexplorer.me",
+          "standard": "EIP3091-like"
+        }
+      ]
     },
     "testnet3": {
       "networkMagic": "0x0b110907",
