@@ -1,0 +1,29 @@
+{
+  "registry": "Bitcoin Network Registry (SLIP-44 style, BTC equivalent of EIP-155 chain registry)",
+  "networks": {
+    "mainnet": {
+      "name": "Bitcoin Mainnet",
+      "chain": "BTC",
+      "networkMagic": "0xf9beb4d9",
+      "defaultPort": 8333,
+      "rpcPort": 8332,
+      "genesisHash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+      "bech32Hrp": [
+        "bc"
+      ],
+      "bip44CoinType": 0
+    },
+    "testnet3": {
+      "networkMagic": "0x0b110907",
+      "genesisHash": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943"
+    },
+    "testnet4": {
+      "networkMagic": "0x1c163287",
+      "genesisHash": "00000000da84f2bafbbc53dee25a72ae507ff4914b867c565be350b0da8bf043"
+    },
+    "signet": {
+      "networkMagic": "0x0a03cf40",
+      "genesisHash": "00000008819873e925422c1ff0f99f7cc9bbb232af63a077a480a3633bee1ef6"
+    }
+  }
+}
