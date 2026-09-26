@@ -1,0 +1,35 @@
+{
+  "name": "Bitcoin Testnet3",
+  "chain": "BTC",
+  "networkMagic": "0x0b110907",
+  "defaultPort": 18333,
+  "rpcPort": 18332,
+  "genesisHash": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+  "bech32Hrp": [
+    "tb"
+  ],
+  "pubKeyHash": {
+    "prefix": "0x6f",
+    "leadingChar": "m or n"
+  },
+  "scriptHash": {
+    "prefix": "0xc4",
+    "leadingChar": "2"
+  },
+  "wifPrefix": "0xef",
+  "bip44CoinType": 1,
+  "explorers": [
+    {
+      "name": "mempool.space testnet",
+      "url": "https://mempool.space/testnet",
+      "standard": "EIP3091-like"
+    },
+    {
+      "name": "blockstream.info testnet",
+      "url": "https://blockstream.info/testnet",
+      "standard": "EIP3091-like"
+    }
+  ],
+  "infoURL": "https://developer.bitcoin.org/testnet",
+  "faucets": []
+}
